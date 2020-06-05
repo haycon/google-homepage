@@ -9,21 +9,9 @@ nav a {
     font-family: arial, sans-serif;
 }
 
-
-ul {
-    list-style-type: none;
-    overflow: hidden;
+a:hover {
+    text-decoration: underline;
 }
-
-li{
-    float: right;
-}
-
-li a{
-    display: block;
-    margin: 10px;
-}
-
 
 #center {
     margin: 10% auto;
@@ -44,6 +32,7 @@ li a{
     justify-content: flex-end;
     padding-right: 30px;
     margin: 20px auto;
+    align-items: center;
 }
 
 #l {
@@ -137,6 +126,7 @@ span a:hover {
     float: right;
     margin-right: 20px;
 }
+
 .ib {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
